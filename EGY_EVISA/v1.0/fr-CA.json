@@ -1,0 +1,46 @@
+{
+   "id":"EGY_EVISA",
+   "version":{
+      "major":1,
+      "minor":0
+   },
+   "language": "fr-CA",
+   "translationObject":{
+      "meta":{
+         "name":"Egyption eVisa",
+         "description":"\n    If you require a visa to travel to Egypt, an eVisa is the easiest option to obtain in advance. You can enter Egypt once using this electronic visa, and stay for up to 30 days. The application process is entirely online, and there's no need to send any documentation to the embassy.\n  "
+      },
+      "privacyPolicy":"Privacy Policy",
+      "poweredBySherpa":"Powered by Sherpa",
+      "termsAndConditions":"Terms & Conditions",
+      "fields":{
+         "traveler":{
+            "nickname":{
+               "meta":{
+                  "path":"traveler/nickname",
+                  "name":"Nickname",
+                  "description":"nickname"
+               },
+               "errorLabels":{
+                  "required":"Please enter name of the traveller"
+               },
+               "label":"Who is the visa for?",
+               "description":"Type a nickname of a traveler or choose from the list",
+               "placeholder":"Traveler Name"
+            }
+         }
+      },
+      "fieldsets":{
+         
+      },
+      "steps":{
+         "traveler-name":{
+            "meta":{
+               "path":"traveler-name",
+               "name":"traveler-name",
+               "description":"traveler-name"
+            }
+         }
+      }
+   }
+}
